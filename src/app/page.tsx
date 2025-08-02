@@ -78,6 +78,7 @@ export default function Home() {
                       <Image
                         width={500}
                         height={500}
+                        className="rounded-lg w-full h-full object-cover"
                         src="./soszarnyitas.PNG"
                         alt="Soszarnyitas Thumbnail"
                       />

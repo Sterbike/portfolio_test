@@ -31,7 +31,7 @@ export default function Home() {
                         width={500}
                         height={500}
                         className="m-auto rounded-3xl max-w-80 lg:rounded-full lg:max-w-60"
-                        src="/profile.jpg"
+                        src="./profile.jpg"
                         alt="Profile Picture"
                       />
                     </div>
@@ -78,7 +78,7 @@ export default function Home() {
                       <Image
                         width={500}
                         height={500}
-                        src="/soszarnyitas.PNG"
+                        src="./soszarnyitas.PNG"
                         alt="Soszarnyitas Thumbnail"
                       />
                     </div>
@@ -108,7 +108,7 @@ export default function Home() {
                         width={500}
                         height={500}
                         className="rounded-lg w-full h-full object-cover"
-                        src="/djgabro.PNG"
+                        src="./djgabro.PNG"
                         alt="Djgabro Thumbnail"
                       />
                     </div>
@@ -138,7 +138,7 @@ export default function Home() {
                         width={500}
                         height={500}
                         className="rounded-lg w-full h-full object-cover"
-                        src="/giftventures.jpg"
+                        src="./giftventures.jpg"
                         alt="Giftventures thumbnail"
                       />
                     </div>
@@ -153,7 +153,7 @@ export default function Home() {
                         final exam project.{" "}
                         <a
                           className="text-[#0c7ff2] underline"
-                          href="/GiftVentures.docx"
+                          href="./GiftVentures.docx"
                           download
                         >
                           Download documentation

@@ -15,7 +15,7 @@ const resumePanel: React.FC<resumePanelProps> = ({ setShowResumePanel, showResum
       className={`fixed top-0 left-0 z-20 bg-white/30 backdrop-blur-md w-full h-screen flex items-center flex-col lg:flex-row justify-center gap-20 lg:gap-60 ${showResumePanel ? "translate-y-0" : "translate-y-[-100%]"} transition-transform duration-200`}
     >
       <a
-        href="/hodi_richard_cv_hu.pdf"
+        href="./hodi_richard_cv_hu.pdf"
         download
         className="w-50 cursor-pointer group relative flex justify-center gap-1.5 px-8 py-4 bg-blue-500 text-white rounded-3xl hover:bg-blue-400 transition translate-all font-semibold shadow-md"
       >
@@ -53,7 +53,7 @@ const resumePanel: React.FC<resumePanelProps> = ({ setShowResumePanel, showResum
         </div>
       </a>
       <a
-        href="/hodi_richard_cv_en.pdf"
+        href="./hodi_richard_cv_en.pdf"
         download
         className=" w-50 cursor-pointer group relative flex justify-center gap-1.5 px-8 py-4 bg-blue-500 text-white rounded-3xl hover:bg-blue-400 transition translate-all font-semibold shadow-md"
       >
